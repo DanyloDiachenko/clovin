@@ -3,13 +3,13 @@ export const scrollElementToView = (scrollToId: string): void => {
 
 	const elRect = element.getBoundingClientRect();
 
-	const scrollDistance = elRect.top - window.scrollY;
-
 	const offset =
 		Number(element.getAttribute("data-scroll-to-view-offset")) || 0;
 
+	const scrollDistance = elRect.top + window.scrollY - offset - 99;
+
 	window.scrollTo({
-		top: scrollDistance + offset - 100,
+		top: scrollDistance,
 		behavior: "smooth",
 	});
 };
