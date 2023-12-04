@@ -10,4 +10,4 @@ Page-link: [https://pizza-shop-teal.vercel.app/](https://clovin.vercel.app/)
 -  SASS (1.67.0)
 
 ### Screen:
-![Uploading Screenshot 2023-12-04 at 21.23.12.png…]()
+<img width="1800" alt="Screenshot 2023-12-04 at 21 23 12" src="https://github.com/DanyloDiachenko/clovin/assets/107757498/9749e1e0-0be9-495c-b061-d7ab0334dba3">
