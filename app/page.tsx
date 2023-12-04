@@ -9,7 +9,7 @@ import { History } from "@/components/PageComponents/History";
 
 const Home = (): JSX.Element => {
     return (
-        <main className={styles.main}>
+        <main className={styles.main} id="header">
             <Banner />
             <History />
             <WorldMap />

@@ -20,6 +20,10 @@
             padding-right: 20px;
         }
 
+        .logo {
+            cursor: pointer;
+        }
+
         .imgMenuWrapper {
             display: flex;
             align-items: center;
@@ -39,17 +43,19 @@
                 display: none;
             }
 
-            a {
+            span {
                 color: var(--black);
                 text-decoration: none;
                 font-weight: 500;
+                cursor: pointer;
             }
         }
 
         .burgerMenuIcon {
             width: 40px;
-            
-            @media(min-width: 670px) {
+            cursor: pointer;
+
+            @media (min-width: 670px) {
                 display: none;
             }
         }

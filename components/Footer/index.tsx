@@ -5,7 +5,7 @@ import { montserrat } from "@/fonts";
 
 export const Footer = (): JSX.Element => {
     return (
-        <footer className={styles.footer}>
+        <footer className={styles.footer} id="contacts">
             <div className={styles.container}>
                 <div className={`${styles.contacts} ${montserrat.className}`}>
                     <div className={styles.title}>Контакти</div>

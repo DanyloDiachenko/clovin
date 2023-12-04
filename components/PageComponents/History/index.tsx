@@ -2,7 +2,7 @@ import styles from "./history.module.scss";
 
 export const History = (): JSX.Element => {
     return (
-        <section className={styles.history}>
+        <section className={styles.history} id="about">
             <div className={styles.contentWrapper}>
                 <div className={styles.firstCol}>
                     <div className={styles.additionalTitle}>

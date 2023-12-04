@@ -19,7 +19,8 @@
     nav {
         min-height: 0;
 
-        a {
+        span {
+            cursor: pointer;
             display: block;
             color: var(--black);
             text-decoration: none;
