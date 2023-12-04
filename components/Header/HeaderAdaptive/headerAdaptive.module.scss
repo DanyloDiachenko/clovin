@@ -1,0 +1,33 @@
+.headerAdaptive {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: grid-template-rows 0.3s ease-in;
+    position: absolute;
+    right: 0;
+    top: 55px;
+    right: 20px;
+    background: rgb(232, 232, 232);
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 8px;
+
+    &.opened {
+        grid-template-rows: 1fr;
+    }
+
+    nav {
+        min-height: 0;
+
+        a {
+            display: block;
+            color: var(--black);
+            text-decoration: none;
+            margin-top: 10px;
+
+            &:last-child {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.slider {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .swiper {
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: visible;
+
+        div:nth-child(2) {
+            position: static !important;
+        }
+    }
+
+    .arrowButton {
+        width: 100px;
+        height: 103px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-top: -10px;
+
+        @media (max-width: 991px) {
+            width: 50px;
+            height: 53px;
+        }
+        @media (max-width: 600px) {
+            width: 20px;
+            height: 23px;
+        }
+
+        &.next {
+            rotate: 180deg;
+        }
+
+        img {
+            max-width: none;
+
+            @media (max-width: 991px) {
+                max-width: 50px;
+            }
+            @media (max-width: 600px) {
+                max-width: 20px;
+            }
+        }
+    }
+}
