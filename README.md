@@ -1,6 +1,6 @@
 stage: production ready
 
-Page-link: [https://pizza-shop-teal.vercel.app/](https://clovin.vercel.app/)
+Page-link: https://clovin.vercel.app/
 
 # Pizza Shop Online
 ### Stack:
