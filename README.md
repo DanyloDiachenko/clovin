@@ -2,7 +2,7 @@ stage: production ready
 
 Page-link: https://clovin.vercel.app/
 
-# Pizza Shop Online
+# Clovin Landing
 ### Stack:
 -  Next JS  (ver. 13.5.1)
 - TypeScript (ver. 5.2.2)
